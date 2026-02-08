@@ -1,16 +1,9 @@
-# React + Vite
+Country Capital Matching App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You are given a key, value pair of countries. You need to suffle them display as array of buttons.
 
-Currently, two official plugins are available:
+(e.g) { 'usa': 'new york', 'germany': 'berlin', 'india': 'new delhi', 'uk': 'london' }
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Whenever you're click the first button, the background should be changed to blue color. When you click the second button if it matched with the previous button, both of them should be removed from the button array. If they are not paired with eachother the button color should be turned to red color. When you click the next button, you need to change the previously clicked buttons color to white, if they are in red color. Once you successfully clicked all matched button, when there are no button left, you should display a message "Congratulations!".
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<video src="https://github.com/user-attachments/assets/37eedd87-8b72-4f61-9599-ab172271b375?raw=true" autoplay loop muted controls></video>
